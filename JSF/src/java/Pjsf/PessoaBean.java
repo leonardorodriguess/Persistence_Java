@@ -26,15 +26,15 @@ public class PessoaBean {
     private String nomeCompleto;
     private List<String> nomes = new ArrayList<String>();
 
-    public String addNome(){
+    public void addNome(){
         nomes.add(nome);
-        System.out.println(nomes);
-        return "";
+        //System.out.println(nomes);
+        //return "";
     }
 
-    public String juntarNome(){
+    public void juntarNome(){
          nomeCompleto = nome + " "+  sobrenome;
-        return "";
+        //return "";
     }
 
     public List<String> getNomes() {
