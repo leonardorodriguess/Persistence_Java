@@ -13,8 +13,8 @@ import javax.faces.bean.ViewScoped;
  *
  * @author Leonardo R
  */
-//@RequestScoped
-@ViewScoped
+//@RequestScoped //vida curta perde os dados da requisição anterior
+@ViewScoped //segura os dados na memoria
 @ManagedBean(name = "pessoaBean")
 
 
