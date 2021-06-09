@@ -14,6 +14,7 @@ import javax.faces.bean.ViewScoped;
  * @author Leonardo R
  */
 //@RequestScoped //vida curta perde os dados da requisição anterior
+//@ApplicationScoped //o que um usuario fazer os outros vão olhar, ira ter um cópia identica indepente se abrir outro navegador
 @ViewScoped //segura os dados na memoria
 @ManagedBean(name = "pessoaBean")
 
