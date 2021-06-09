@@ -8,15 +8,15 @@
     <h:body>
         <h:form>
             <h1>Usando Java Server Faces</h1>
-            Nome: <h:inputText id = "campoNome" value="#{pessoaBean.nome}"></h:inputText> <br/>
+            <h:outputLabel >Nome:</h:outputLabel> <h:inputText id = "campoNome" value="#{pessoaBean.nome}"></h:inputText> <br/>
 
-            Sobrenome: <h:inputText id="campoSobrenome" value="#{pessoaBean.sobrenome}"/> <br/>
+            <h:outputLabel >Sobrenome:</h:outputLabel> <h:inputText id="campoSobrenome" value="#{pessoaBean.sobrenome}"/> <br/>
 
             <h:outputText value="#{pessoaBean.nomeCompleto}"/> <br/>
 
             <h:commandButton value ="Mostrar nome" action="#{pessoaBean.juntarNome}" />
 
-             <h:commandButton value ="Adicionar nomes" action="#{pessoaBean.addNome}"/> 
+            <h:commandButton value ="Adicionar nomes" action="#{pessoaBean.addNome}"/>
 
             <h:dataTable value="#{pessoaBean.nomes}" var="n">
                 <h:column>
