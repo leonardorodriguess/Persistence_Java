@@ -9,14 +9,8 @@
         <h:form>
             <h1>Navegação dinâmica</h1> <!--não usada no codigo java-->
             <h:outputLabel >Nome:</h:outputLabel> <h:inputText id = "campoNome" value="#{pessoaBean.nome}"></h:inputText> <br/>
-
-            <h:outputLabel >Sobrenome:</h:outputLabel> <h:inputText id="campoSobrenome" value="#{pessoaBean.sobrenome}"/> <br/>
-
-            <h:outputText value="#{pessoaBean.nomeCompleto}"/> <br/>
-
-            <h:commandButton value ="Mostrar nome" action="#{pessoaBean.juntarNome}" />
-
-            <h:commandButton value ="Adicionar nomes" action="#{pessoaBean.addNome}"/>
+            <h:outputLabel>Senha:</h:outputLabel> <h:inputSecret id="senha" value="#{pessoaBean.senha}"></h:inputSecret> <br/>
+            <h:outputLabel>Texto:</h:outputLabel> <h:inputTextarea id="texto" value="#{pessoaBean.texto}" rows="10" cols="10"/> <br/>
 
             <h:dataTable value="#{pessoaBean.nomes}" var="n">
                 <h:column>

@@ -28,6 +28,8 @@ public class PessoaBean implements Serializable {
     private String sobrenome;
     private String nomeCompleto;
     private List<String> nomes = new ArrayList<String>();
+    private String senha;
+    private String texto;
     //private HtmlCommandButton commandButton;
 
     public String addNome(){
@@ -54,6 +56,22 @@ public class PessoaBean implements Serializable {
 
     public void setNomes(List<String> nomes) {
         this.nomes = nomes;
+    }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
+
+    public String getTexto() {
+        return texto;
+    }
+
+    public void setTexto(String texto) {
+        this.texto = texto;
     }
 
     /*public HtmlCommandButton getCommandButton() {
