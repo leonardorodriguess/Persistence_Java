@@ -4,14 +4,24 @@
       xmlns:h="http://java.sun.com/jsf/html">
     <h:head>
         <title>Facelet Title</title>
+        <script>
+            function AlterarValorCampo(){
+                //alert('clicou')
+                var campo = document.getElementById('formPessoa:nome');
+                campo.value = 'eu cliquei';
+            }
+        </script>
     </h:head>
     <h:body>
-        <h:form>
+        <h:form id="formPessoa">
             <h1>Usando Java Server Faces</h1>
+            <h:inputText id="nome" onclick="this.value='troquei o valor'" onchange="alert('alterado') "/>
+            <h:commandButton value="Clicar" onclick="AlterarValorCampo()" />
+            <br/>
+            <br/>
             <h:commandButton value="Navegar" action="pag2"/>
             <h:commandButton value="Explicita" action="explicita"/>
        
-
         </h:form>
     </h:body>
 </html>
