@@ -1,0 +1,28 @@
+11/06/2021 14:24:32 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+11/06/2021 14:24:32 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+11/06/2021 14:24:32 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+11/06/2021 14:24:32 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+11/06/2021 14:26:34 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+11/06/2021 14:26:34 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: stop: Stopping web application at '/JSF'
+11/06/2021 14:26:35 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application at '/JSF'
+11/06/2021 14:26:58 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+11/06/2021 14:26:58 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+11/06/2021 14:26:58 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: stop: Stopping web application at '/JSF'
+11/06/2021 14:26:58 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application at '/JSF'
+11/06/2021 14:27:49 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+11/06/2021 14:27:49 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: stop: Stopping web application at '/JSF'
+11/06/2021 14:27:49 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application at '/JSF'

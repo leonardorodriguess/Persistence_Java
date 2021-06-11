@@ -1,0 +1,60 @@
+11/06/2021 14:24:24 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_18\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.7.0_71\bin;C:\Program Files\Git\cmd;C:\Users\Sec.Obras\AppData\Local\Programs\Git\cmd
+11/06/2021 14:24:25 org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8082
+11/06/2021 14:24:25 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2001 ms
+11/06/2021 14:24:25 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+11/06/2021 14:24:25 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.33
+11/06/2021 14:24:25 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+11/06/2021 14:24:26 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor JSF.xml
+11/06/2021 14:24:28 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+11/06/2021 14:24:30 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+11/06/2021 14:24:31 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+11/06/2021 14:24:31 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+11/06/2021 14:24:31 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+11/06/2021 14:24:32 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+11/06/2021 14:24:32 org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8082
+11/06/2021 14:24:32 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+11/06/2021 14:24:32 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/40  config=null
+11/06/2021 14:24:32 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6495 ms
+11/06/2021 14:26:35 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+11/06/2021 14:26:36 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+11/06/2021 14:26:42 org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/JSF]
+11/06/2021 14:26:42 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+11/06/2021 14:26:43 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+11/06/2021 14:26:58 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+11/06/2021 14:26:59 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+11/06/2021 14:27:50 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+11/06/2021 14:27:50 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+11/06/2021 14:27:53 org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/JSF]
+11/06/2021 14:27:53 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/JSF] appears to have started a thread named [Mojarra-WebResourceMonitor-1-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+11/06/2021 14:27:54 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+11/06/2021 14:27:54 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
