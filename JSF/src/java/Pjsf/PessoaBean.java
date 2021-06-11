@@ -4,8 +4,10 @@
  * and open the template in the editor.
  */
 package Pjsf;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+
 //import javax.faces.bean.ManagedBean;
 //import javax.faces.bean.ViewScoped;
 //import javax.faces.component.html.HtmlCommandButton;
@@ -21,21 +23,23 @@ import java.util.List;
 
 
 
-public class PessoaBean {
+public class PessoaBean implements Serializable {
     private String nome;
     private String sobrenome;
     private String nomeCompleto;
     private List<String> nomes = new ArrayList<String>();
     //private HtmlCommandButton commandButton;
 
-    public void addNome(){
+    public String addNome(){
         nomes.add(nome);
 
-        //if (nomes.size() > 3)
-            //commandButton.setDisabled(true);
-        
+        if (nomes.size() > 3){
+          //commandButton.setDisabled(true);
+          return "pag3";
+
+        }
         System.out.println(nomes);
-        //return "";
+        return null;
     }
 
 
