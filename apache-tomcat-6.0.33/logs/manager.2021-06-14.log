@@ -36,3 +36,59 @@ INFO: Manager: list: Listing contexts for virtual host 'localhost'
 INFO: Manager: restart: Reloading web application at '/JSF'
 14/06/2021 14:40:09 org.apache.catalina.core.ApplicationContext log
 INFO: Manager: list: Listing contexts for virtual host 'localhost'
+14/06/2021 14:49:39 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+14/06/2021 14:49:39 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application at '/JSF'
+14/06/2021 14:52:52 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+14/06/2021 14:53:34 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+14/06/2021 14:55:21 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+14/06/2021 14:56:38 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+14/06/2021 14:57:13 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+14/06/2021 14:57:13 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+14/06/2021 14:57:13 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+14/06/2021 14:57:13 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+14/06/2021 14:57:13 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application at '/JSF'
+14/06/2021 14:59:38 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+14/06/2021 15:08:59 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+14/06/2021 15:08:59 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+14/06/2021 15:08:59 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+14/06/2021 15:08:59 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+14/06/2021 15:14:49 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+14/06/2021 15:14:49 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application at '/JSF'
+14/06/2021 15:15:28 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+14/06/2021 15:15:28 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+14/06/2021 15:15:28 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+14/06/2021 15:15:28 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+14/06/2021 15:15:28 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application at '/JSF'
+14/06/2021 15:21:37 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+14/06/2021 15:21:37 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+14/06/2021 15:21:37 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+14/06/2021 15:21:37 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+14/06/2021 15:21:37 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application at '/JSF'

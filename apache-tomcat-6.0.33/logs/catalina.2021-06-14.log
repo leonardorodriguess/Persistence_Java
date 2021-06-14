@@ -78,3 +78,1740 @@ INFO: Reloading Context with name [/JSF] has started
 INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
 14/06/2021 14:40:06 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
 INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+14/06/2021 14:49:39 org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/JSF] has started
+14/06/2021 14:49:39 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+14/06/2021 14:49:40 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+14/06/2021 14:56:59 org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8082
+14/06/2021 14:57:00 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+14/06/2021 14:57:00 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/JSF] appears to have started a thread named [Mojarra-WebResourceMonitor-1-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+14/06/2021 14:57:00 org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8082
+14/06/2021 14:57:11 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_18\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.7.0_71\bin;C:\Program Files\Git\cmd;C:\Users\Sec.Obras\AppData\Local\Programs\Git\cmd
+14/06/2021 14:57:11 org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8082
+14/06/2021 14:57:11 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 286 ms
+14/06/2021 14:57:11 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+14/06/2021 14:57:11 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.33
+14/06/2021 14:57:11 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+14/06/2021 14:57:12 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor JSF.xml
+14/06/2021 14:57:12 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+14/06/2021 14:57:12 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+14/06/2021 14:57:13 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+14/06/2021 14:57:13 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+14/06/2021 14:57:13 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+14/06/2021 14:57:13 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+14/06/2021 14:57:13 org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8082
+14/06/2021 14:57:13 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+14/06/2021 14:57:13 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/13  config=null
+14/06/2021 14:57:13 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1267 ms
+14/06/2021 14:57:13 org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/JSF] has started
+14/06/2021 14:57:13 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/JSF] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+14/06/2021 14:57:13 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+14/06/2021 14:57:14 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+14/06/2021 14:59:50 org.hibernate.cfg.annotations.Version <clinit>
+INFO: Hibernate Annotations 3.3.1.GA
+14/06/2021 14:59:50 org.hibernate.cfg.Environment <clinit>
+INFO: Hibernate 3.2.5
+14/06/2021 14:59:50 org.hibernate.cfg.Environment <clinit>
+INFO: hibernate.properties not found
+14/06/2021 14:59:50 org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: Bytecode provider name : cglib
+14/06/2021 14:59:50 org.hibernate.cfg.Environment <clinit>
+INFO: using JDK 1.4 java.sql.Timestamp handling
+14/06/2021 14:59:51 org.hibernate.ejb.Version <clinit>
+INFO: Hibernate EntityManager 3.3.2.GA
+14/06/2021 14:59:51 org.hibernate.cfg.AnnotationBinder bindClass
+INFO: Binding entity from annotated class: br.com.entidades.Pessoa
+14/06/2021 14:59:51 org.hibernate.cfg.annotations.EntityBinder bindTable
+INFO: Bind entity br.com.entidades.Pessoa on table Pessoa
+14/06/2021 14:59:51 org.hibernate.cfg.AnnotationConfiguration secondPassCompile
+INFO: Hibernate Validator not found: ignoring
+14/06/2021 14:59:51 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+14/06/2021 14:59:51 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+14/06/2021 14:59:51 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: true
+14/06/2021 14:59:51 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/teste
+14/06/2021 14:59:51 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****, autocommit=true, release_mode=auto}
+14/06/2021 14:59:51 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.4.9
+14/06/2021 14:59:51 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 8.3 JDBC3 with SSL (build 603)
+14/06/2021 14:59:51 org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+14/06/2021 14:59:51 org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+14/06/2021 14:59:51 org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+14/06/2021 14:59:51 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+14/06/2021 14:59:51 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+14/06/2021 14:59:51 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+14/06/2021 14:59:51 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+14/06/2021 14:59:51 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+14/06/2021 14:59:52 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): disabled
+14/06/2021 14:59:52 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+14/06/2021 14:59:52 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+14/06/2021 14:59:52 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+14/06/2021 14:59:52 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+14/06/2021 14:59:52 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL inserts for batching: disabled
+14/06/2021 14:59:52 org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+14/06/2021 14:59:52 org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+14/06/2021 14:59:52 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+14/06/2021 14:59:52 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: enabled
+14/06/2021 14:59:52 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+14/06/2021 14:59:52 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+14/06/2021 14:59:52 org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+14/06/2021 14:59:52 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+14/06/2021 14:59:52 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+14/06/2021 14:59:52 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+14/06/2021 14:59:52 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+14/06/2021 14:59:52 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+14/06/2021 14:59:52 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Named query checking : enabled
+14/06/2021 14:59:52 org.hibernate.impl.SessionFactoryImpl <init>
+INFO: building session factory
+14/06/2021 14:59:52 org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+14/06/2021 14:59:52 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+14/06/2021 14:59:52 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+14/06/2021 14:59:52 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+14/06/2021 14:59:53 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.pessoa
+14/06/2021 14:59:53 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, sobrenome, idade, datanascimento, nome]
+14/06/2021 14:59:53 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+14/06/2021 14:59:53 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: []
+14/06/2021 14:59:53 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
+14/06/2021 15:00:43 com.sun.faces.application.ActionListenerImpl processAction
+SEVERE: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+javax.faces.el.EvaluationException: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:102)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:775)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1267)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:312)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+	at org.hibernate.ejb.AbstractEntityManagerImpl.throwPersistenceException(AbstractEntityManagerImpl.java:637)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:226)
+	at br.com.dao.DaoGeneric.salvar(DaoGeneric.java:21)
+	at Pjsf.PessoaBean.salvar(PessoaBean.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:191)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:276)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:98)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:88)
+	... 20 more
+Caused by: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+	at org.hibernate.event.def.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:79)
+	at org.hibernate.event.def.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:38)
+	at org.hibernate.impl.SessionImpl.firePersist(SessionImpl.java:618)
+	at org.hibernate.impl.SessionImpl.persist(SessionImpl.java:592)
+	at org.hibernate.impl.SessionImpl.persist(SessionImpl.java:596)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:220)
+	... 30 more
+14/06/2021 15:00:43 com.sun.faces.lifecycle.InvokeApplicationPhase execute
+WARNING: #{pessoaBean.salvar}: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+javax.faces.FacesException: #{pessoaBean.salvar}: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:775)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1267)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:312)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: javax.faces.el.EvaluationException: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:102)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 19 more
+Caused by: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+	at org.hibernate.ejb.AbstractEntityManagerImpl.throwPersistenceException(AbstractEntityManagerImpl.java:637)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:226)
+	at br.com.dao.DaoGeneric.salvar(DaoGeneric.java:21)
+	at Pjsf.PessoaBean.salvar(PessoaBean.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:191)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:276)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:98)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:88)
+	... 20 more
+Caused by: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+	at org.hibernate.event.def.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:79)
+	at org.hibernate.event.def.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:38)
+	at org.hibernate.impl.SessionImpl.firePersist(SessionImpl.java:618)
+	at org.hibernate.impl.SessionImpl.persist(SessionImpl.java:592)
+	at org.hibernate.impl.SessionImpl.persist(SessionImpl.java:596)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:220)
+	... 30 more
+14/06/2021 15:00:55 com.sun.faces.application.ActionListenerImpl processAction
+SEVERE: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+javax.faces.el.EvaluationException: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:102)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:775)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1267)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:312)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+	at org.hibernate.ejb.AbstractEntityManagerImpl.throwPersistenceException(AbstractEntityManagerImpl.java:637)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:226)
+	at br.com.dao.DaoGeneric.salvar(DaoGeneric.java:21)
+	at Pjsf.PessoaBean.salvar(PessoaBean.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:191)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:276)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:98)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:88)
+	... 20 more
+Caused by: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+	at org.hibernate.event.def.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:79)
+	at org.hibernate.event.def.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:38)
+	at org.hibernate.impl.SessionImpl.firePersist(SessionImpl.java:618)
+	at org.hibernate.impl.SessionImpl.persist(SessionImpl.java:592)
+	at org.hibernate.impl.SessionImpl.persist(SessionImpl.java:596)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:220)
+	... 30 more
+14/06/2021 15:00:55 com.sun.faces.lifecycle.InvokeApplicationPhase execute
+WARNING: #{pessoaBean.salvar}: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+javax.faces.FacesException: #{pessoaBean.salvar}: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:775)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1267)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:312)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: javax.faces.el.EvaluationException: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:102)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 19 more
+Caused by: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+	at org.hibernate.ejb.AbstractEntityManagerImpl.throwPersistenceException(AbstractEntityManagerImpl.java:637)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:226)
+	at br.com.dao.DaoGeneric.salvar(DaoGeneric.java:21)
+	at Pjsf.PessoaBean.salvar(PessoaBean.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:191)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:276)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:98)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:88)
+	... 20 more
+Caused by: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+	at org.hibernate.event.def.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:79)
+	at org.hibernate.event.def.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:38)
+	at org.hibernate.impl.SessionImpl.firePersist(SessionImpl.java:618)
+	at org.hibernate.impl.SessionImpl.persist(SessionImpl.java:592)
+	at org.hibernate.impl.SessionImpl.persist(SessionImpl.java:596)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:220)
+	... 30 more
+14/06/2021 15:01:17 com.sun.faces.application.ActionListenerImpl processAction
+SEVERE: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+javax.faces.el.EvaluationException: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:102)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:775)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1267)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:312)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+	at org.hibernate.ejb.AbstractEntityManagerImpl.throwPersistenceException(AbstractEntityManagerImpl.java:637)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:226)
+	at br.com.dao.DaoGeneric.salvar(DaoGeneric.java:21)
+	at Pjsf.PessoaBean.salvar(PessoaBean.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:191)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:276)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:98)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:88)
+	... 20 more
+Caused by: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+	at org.hibernate.event.def.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:79)
+	at org.hibernate.event.def.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:38)
+	at org.hibernate.impl.SessionImpl.firePersist(SessionImpl.java:618)
+	at org.hibernate.impl.SessionImpl.persist(SessionImpl.java:592)
+	at org.hibernate.impl.SessionImpl.persist(SessionImpl.java:596)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:220)
+	... 30 more
+14/06/2021 15:01:17 com.sun.faces.lifecycle.InvokeApplicationPhase execute
+WARNING: #{pessoaBean.salvar}: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+javax.faces.FacesException: #{pessoaBean.salvar}: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:775)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1267)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:312)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: javax.faces.el.EvaluationException: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:102)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 19 more
+Caused by: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+	at org.hibernate.ejb.AbstractEntityManagerImpl.throwPersistenceException(AbstractEntityManagerImpl.java:637)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:226)
+	at br.com.dao.DaoGeneric.salvar(DaoGeneric.java:21)
+	at Pjsf.PessoaBean.salvar(PessoaBean.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:191)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:276)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:98)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:88)
+	... 20 more
+Caused by: org.hibernate.PersistentObjectException: detached entity passed to persist: br.com.entidades.Pessoa
+	at org.hibernate.event.def.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:79)
+	at org.hibernate.event.def.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:38)
+	at org.hibernate.impl.SessionImpl.firePersist(SessionImpl.java:618)
+	at org.hibernate.impl.SessionImpl.persist(SessionImpl.java:592)
+	at org.hibernate.impl.SessionImpl.persist(SessionImpl.java:596)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:220)
+	... 30 more
+14/06/2021 15:05:26 org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8082
+14/06/2021 15:05:27 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+14/06/2021 15:05:27 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/JSF] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+14/06/2021 15:05:27 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/JSF] appears to have started a thread named [Mojarra-WebResourceMonitor-1-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+14/06/2021 15:05:27 org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8082
+14/06/2021 15:08:57 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_18\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.7.0_71\bin;C:\Program Files\Git\cmd;C:\Users\Sec.Obras\AppData\Local\Programs\Git\cmd
+14/06/2021 15:08:57 org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8082
+14/06/2021 15:08:57 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 369 ms
+14/06/2021 15:08:58 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+14/06/2021 15:08:58 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.33
+14/06/2021 15:08:58 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+14/06/2021 15:08:58 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor JSF.xml
+14/06/2021 15:08:58 org.apache.catalina.session.StandardManager doLoad
+SEVERE: IOException while loading persisted sessions: java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: br.com.dao.DaoGeneric
+java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: br.com.dao.DaoGeneric
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1333)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1947)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1871)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1947)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1871)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1496)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:998)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:648)
+	at org.apache.catalina.core.ContainerBase.setManager(ContainerBase.java:446)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4631)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:601)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:840)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.io.NotSerializableException: br.com.dao.DaoGeneric
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1156)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1474)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1474)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeArray(ObjectOutputStream.java:1338)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1146)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeArray(ObjectOutputStream.java:1338)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1146)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1572)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1015)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:528)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:469)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:678)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4882)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:936)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1359)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1330)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:326)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1098)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1110)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:468)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:604)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:788)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:662)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:629)
+	... 6 more
+14/06/2021 15:08:58 org.apache.catalina.session.StandardManager start
+SEVERE: Exception loading sessions from persistent storage
+java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: br.com.dao.DaoGeneric
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1333)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1947)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1871)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1947)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1871)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1496)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:998)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:648)
+	at org.apache.catalina.core.ContainerBase.setManager(ContainerBase.java:446)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4631)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:601)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:840)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.io.NotSerializableException: br.com.dao.DaoGeneric
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1156)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1474)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1474)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeArray(ObjectOutputStream.java:1338)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1146)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeArray(ObjectOutputStream.java:1338)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1146)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1572)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1015)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:528)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:469)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:678)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4882)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:936)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1359)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1330)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:326)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1098)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1110)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:468)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:604)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:788)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:662)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:629)
+	... 6 more
+14/06/2021 15:08:58 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+14/06/2021 15:08:59 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+14/06/2021 15:08:59 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+14/06/2021 15:08:59 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+14/06/2021 15:08:59 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+14/06/2021 15:08:59 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+14/06/2021 15:08:59 org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8082
+14/06/2021 15:08:59 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+14/06/2021 15:08:59 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/18  config=null
+14/06/2021 15:08:59 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1958 ms
+14/06/2021 15:14:49 org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/JSF] has started
+14/06/2021 15:14:49 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/JSF] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+14/06/2021 15:14:50 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+14/06/2021 15:14:51 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+14/06/2021 15:14:51 org.apache.catalina.session.StandardManager doLoad
+SEVERE: IOException while loading persisted sessions: java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: br.com.dao.DaoGeneric
+java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: br.com.dao.DaoGeneric
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1333)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1947)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1871)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1947)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1871)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1496)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:998)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:648)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4714)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3461)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:943)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:361)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:563)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.io.NotSerializableException: br.com.dao.DaoGeneric
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1156)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1474)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1474)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeArray(ObjectOutputStream.java:1338)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1146)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeArray(ObjectOutputStream.java:1338)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1146)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1572)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1015)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:528)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:469)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:678)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4882)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3454)
+	... 17 more
+14/06/2021 15:14:51 org.apache.catalina.session.StandardManager start
+SEVERE: Exception loading sessions from persistent storage
+java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: br.com.dao.DaoGeneric
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1333)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1947)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1871)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1947)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1871)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1496)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:998)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:648)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4714)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3461)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:943)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:361)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:563)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.io.NotSerializableException: br.com.dao.DaoGeneric
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1156)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1474)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1474)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeArray(ObjectOutputStream.java:1338)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1146)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeArray(ObjectOutputStream.java:1338)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1146)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1572)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1015)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:528)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:469)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:678)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4882)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3454)
+	... 17 more
+14/06/2021 15:15:02 org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8082
+14/06/2021 15:15:03 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+14/06/2021 15:15:03 org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8082
+14/06/2021 15:15:27 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_18\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.7.0_71\bin;C:\Program Files\Git\cmd;C:\Users\Sec.Obras\AppData\Local\Programs\Git\cmd
+14/06/2021 15:15:27 org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8082
+14/06/2021 15:15:27 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 362 ms
+14/06/2021 15:15:27 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+14/06/2021 15:15:27 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.33
+14/06/2021 15:15:27 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+14/06/2021 15:15:27 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor JSF.xml
+14/06/2021 15:15:28 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+14/06/2021 15:15:28 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+14/06/2021 15:15:28 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+14/06/2021 15:15:28 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+14/06/2021 15:15:28 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+14/06/2021 15:15:28 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+14/06/2021 15:15:28 org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8082
+14/06/2021 15:15:28 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+14/06/2021 15:15:28 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/14  config=null
+14/06/2021 15:15:28 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1311 ms
+14/06/2021 15:15:28 org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/JSF] has started
+14/06/2021 15:15:28 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/JSF] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+14/06/2021 15:15:29 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+14/06/2021 15:15:29 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+14/06/2021 15:15:41 org.hibernate.cfg.annotations.Version <clinit>
+INFO: Hibernate Annotations 3.3.1.GA
+14/06/2021 15:15:41 org.hibernate.cfg.Environment <clinit>
+INFO: Hibernate 3.2.5
+14/06/2021 15:15:41 org.hibernate.cfg.Environment <clinit>
+INFO: hibernate.properties not found
+14/06/2021 15:15:41 org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: Bytecode provider name : cglib
+14/06/2021 15:15:41 org.hibernate.cfg.Environment <clinit>
+INFO: using JDK 1.4 java.sql.Timestamp handling
+14/06/2021 15:15:41 org.hibernate.ejb.Version <clinit>
+INFO: Hibernate EntityManager 3.3.2.GA
+14/06/2021 15:15:42 org.hibernate.cfg.AnnotationBinder bindClass
+INFO: Binding entity from annotated class: br.com.entidades.Pessoa
+14/06/2021 15:15:42 org.hibernate.cfg.annotations.EntityBinder bindTable
+INFO: Bind entity br.com.entidades.Pessoa on table Pessoa
+14/06/2021 15:15:42 org.hibernate.cfg.AnnotationConfiguration secondPassCompile
+INFO: Hibernate Validator not found: ignoring
+14/06/2021 15:15:42 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+14/06/2021 15:15:42 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+14/06/2021 15:15:42 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: true
+14/06/2021 15:15:42 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/teste
+14/06/2021 15:15:42 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****, autocommit=true, release_mode=auto}
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.4.9
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 8.3 JDBC3 with SSL (build 603)
+14/06/2021 15:15:42 org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+14/06/2021 15:15:42 org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+14/06/2021 15:15:42 org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): disabled
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL inserts for batching: disabled
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+14/06/2021 15:15:42 org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: enabled
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+14/06/2021 15:15:42 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Named query checking : enabled
+14/06/2021 15:15:43 org.hibernate.impl.SessionFactoryImpl <init>
+INFO: building session factory
+14/06/2021 15:15:43 org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+14/06/2021 15:15:43 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+14/06/2021 15:15:43 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+14/06/2021 15:15:43 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+14/06/2021 15:15:43 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.pessoa
+14/06/2021 15:15:43 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, sobrenome, idade, datanascimento, nome]
+14/06/2021 15:15:43 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+14/06/2021 15:15:43 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: []
+14/06/2021 15:15:43 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
+14/06/2021 15:17:32 org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8082
+14/06/2021 15:17:33 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+14/06/2021 15:17:33 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/JSF] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+14/06/2021 15:17:33 org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8082
+14/06/2021 15:21:35 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_18\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.7.0_71\bin;C:\Program Files\Git\cmd;C:\Users\Sec.Obras\AppData\Local\Programs\Git\cmd
+14/06/2021 15:21:35 org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8082
+14/06/2021 15:21:35 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 285 ms
+14/06/2021 15:21:35 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+14/06/2021 15:21:35 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.33
+14/06/2021 15:21:35 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+14/06/2021 15:21:36 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor JSF.xml
+14/06/2021 15:21:36 org.apache.catalina.session.StandardManager doLoad
+SEVERE: IOException while loading persisted sessions: java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: br.com.dao.DaoGeneric
+java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: br.com.dao.DaoGeneric
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1333)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1947)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1871)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1947)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1871)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1496)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:998)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:648)
+	at org.apache.catalina.core.ContainerBase.setManager(ContainerBase.java:446)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4631)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:601)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:840)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.io.NotSerializableException: br.com.dao.DaoGeneric
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1156)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1474)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1474)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeArray(ObjectOutputStream.java:1338)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1146)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeArray(ObjectOutputStream.java:1338)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1146)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1572)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1015)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:528)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:469)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:678)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4882)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:936)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1359)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1330)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:326)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1098)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1110)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:468)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:604)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:788)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:662)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:629)
+	... 6 more
+14/06/2021 15:21:36 org.apache.catalina.session.StandardManager start
+SEVERE: Exception loading sessions from persistent storage
+java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: br.com.dao.DaoGeneric
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1333)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1947)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1871)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1947)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1871)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1496)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:998)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:648)
+	at org.apache.catalina.core.ContainerBase.setManager(ContainerBase.java:446)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4631)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:601)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:840)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.io.NotSerializableException: br.com.dao.DaoGeneric
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1156)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1474)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1474)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeArray(ObjectOutputStream.java:1338)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1146)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeArray(ObjectOutputStream.java:1338)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1146)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at java.util.HashMap.writeObject(HashMap.java:1001)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:945)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1461)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1392)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1150)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:326)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1572)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1015)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:528)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:469)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:678)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4882)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:936)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1359)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1330)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:326)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1098)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1110)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:468)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:604)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:788)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:662)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:629)
+	... 6 more
+14/06/2021 15:21:36 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+14/06/2021 15:21:37 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+14/06/2021 15:21:37 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+14/06/2021 15:21:37 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+14/06/2021 15:21:37 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+14/06/2021 15:21:37 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+14/06/2021 15:21:37 org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8082
+14/06/2021 15:21:37 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+14/06/2021 15:21:37 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/15  config=null
+14/06/2021 15:21:37 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1545 ms
+14/06/2021 15:21:37 org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/JSF] has started
+14/06/2021 15:21:37 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/JSF] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+14/06/2021 15:21:38 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+14/06/2021 15:21:38 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+14/06/2021 15:23:09 org.hibernate.cfg.annotations.Version <clinit>
+INFO: Hibernate Annotations 3.3.1.GA
+14/06/2021 15:23:09 org.hibernate.cfg.Environment <clinit>
+INFO: Hibernate 3.2.5
+14/06/2021 15:23:09 org.hibernate.cfg.Environment <clinit>
+INFO: hibernate.properties not found
+14/06/2021 15:23:09 org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: Bytecode provider name : cglib
+14/06/2021 15:23:09 org.hibernate.cfg.Environment <clinit>
+INFO: using JDK 1.4 java.sql.Timestamp handling
+14/06/2021 15:23:09 org.hibernate.ejb.Version <clinit>
+INFO: Hibernate EntityManager 3.3.2.GA
+14/06/2021 15:23:09 org.hibernate.cfg.AnnotationBinder bindClass
+INFO: Binding entity from annotated class: br.com.entidades.Pessoa
+14/06/2021 15:23:09 org.hibernate.cfg.annotations.EntityBinder bindTable
+INFO: Bind entity br.com.entidades.Pessoa on table Pessoa
+14/06/2021 15:23:09 org.hibernate.cfg.AnnotationConfiguration secondPassCompile
+INFO: Hibernate Validator not found: ignoring
+14/06/2021 15:23:10 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+14/06/2021 15:23:10 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+14/06/2021 15:23:10 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: true
+14/06/2021 15:23:10 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/teste
+14/06/2021 15:23:10 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****, autocommit=true, release_mode=auto}
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.4.9
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 8.3 JDBC3 with SSL (build 603)
+14/06/2021 15:23:10 org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+14/06/2021 15:23:10 org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+14/06/2021 15:23:10 org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): disabled
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL inserts for batching: disabled
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+14/06/2021 15:23:10 org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: enabled
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+14/06/2021 15:23:10 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Named query checking : enabled
+14/06/2021 15:23:10 org.hibernate.impl.SessionFactoryImpl <init>
+INFO: building session factory
+14/06/2021 15:23:10 org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+14/06/2021 15:23:10 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+14/06/2021 15:23:10 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+14/06/2021 15:23:11 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+14/06/2021 15:23:11 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.pessoa
+14/06/2021 15:23:11 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, sobrenome, idade, datanascimento, nome]
+14/06/2021 15:23:11 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+14/06/2021 15:23:11 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: []
+14/06/2021 15:23:11 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
