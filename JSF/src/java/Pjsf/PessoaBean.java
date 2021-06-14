@@ -7,8 +7,8 @@ package Pjsf;
 import br.com.dao.DaoGeneric;
 import br.com.entidades.Pessoa;
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
+//import java.util.ArrayList;
+//import java.util.List;
 
 //import javax.faces.bean.ManagedBean;
 //import javax.faces.bean.ViewScoped;
@@ -29,9 +29,13 @@ public class PessoaBean implements Serializable {
     private Pessoa pessoa = new Pessoa();
     private DaoGeneric <Pessoa> daoGeneric = new DaoGeneric<Pessoa>();
 
-    public void salvar(){
+    /*public void salvar(){
         daoGeneric.salvar(pessoa);
         pessoa = new Pessoa();
+    }*/
+
+    public void salvar(){
+        pessoa = daoGeneric.merge(pessoa);
     }
 
     public DaoGeneric<Pessoa> getDaoGeneric() {

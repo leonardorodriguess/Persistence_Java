@@ -15,6 +15,9 @@
     <h:body>
         <h:form id="formPessoa">
             <h1>Usando Java Server Faces</h1>
+            <h:outputLabel value="Id: "/>
+            <h:inputText value="#{pessoaBean.pessoa.id}" readonly="true"/> <br/>
+            
             <h:outputLabel value="Nome: "/>
             <h:inputText value="#{pessoaBean.pessoa.nome}"/> <br/>
 
