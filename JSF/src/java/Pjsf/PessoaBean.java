@@ -33,7 +33,9 @@ public class PessoaBean implements Serializable {
         daoGeneric.salvar(pessoa);
         pessoa = new Pessoa();
     }*/
-
+    public void remove(){
+        daoGeneric.delete(pessoa);
+    }
     public void salvar(){
         pessoa = daoGeneric.merge(pessoa);
     }
