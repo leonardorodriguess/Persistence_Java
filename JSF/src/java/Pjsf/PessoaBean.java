@@ -38,6 +38,10 @@ public class PessoaBean implements Serializable {
         pessoa = daoGeneric.merge(pessoa);
     }
 
+    public void novo(){
+        pessoa = new Pessoa();
+    }
+
     public DaoGeneric<Pessoa> getDaoGeneric() {
         return daoGeneric;
     }
