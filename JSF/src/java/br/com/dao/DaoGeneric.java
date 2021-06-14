@@ -49,4 +49,15 @@ public class DaoGeneric <E> implements Serializable {
         entityManager.close();
     }
 
+    public void deletePorId(E entidade){
+        EntityManager entityManager = JPAUtil.getEntityManager();
+        EntityTransaction entityTransaction = entityManager.getTransaction();
+        entityTransaction.begin();
+
+        entityManager.remove(entidade);
+
+        entityTransaction.commit();
+        entityManager.close();
+    }
+
 }
