@@ -2,3 +2,7 @@
 INFO: ContextListener: contextInitialized()
 11/06/2021 14:24:32 org.apache.catalina.core.ApplicationContext log
 INFO: SessionListener: contextInitialized()
+11/06/2021 16:51:40 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+11/06/2021 16:51:41 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
