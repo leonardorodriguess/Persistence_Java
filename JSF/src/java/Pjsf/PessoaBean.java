@@ -9,6 +9,7 @@ import br.com.entidades.Pessoa;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+import javax.annotation.PostConstruct;
 //import java.util.ArrayList;
 //import java.util.List;
 
@@ -42,6 +43,7 @@ public class PessoaBean implements Serializable {
         carregarPessoas();
     }
 
+    @PostConstruct
     public void carregarPessoas(){
         pessoas = daoGeneric.getListEntity(Pessoa.class);
     }
