@@ -1,0 +1,2545 @@
+16/06/2021 10:29:52 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_18\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.7.0_71\bin;C:\Program Files\Git\cmd;C:\Users\Sec.Obras\AppData\Local\Programs\Git\cmd
+16/06/2021 10:29:54 org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8082
+16/06/2021 10:29:54 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2090 ms
+16/06/2021 10:29:54 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+16/06/2021 10:29:54 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.33
+16/06/2021 10:29:54 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+16/06/2021 10:29:55 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor JSF.xml
+16/06/2021 10:29:55 org.apache.catalina.session.StandardManager doLoad
+SEVERE: IOException while loading persisted sessions: java.io.InvalidClassException: Pjsf.PessoaBean; local class incompatible: stream classdesc serialVersionUID = 9133528225554780726, local class serialVersionUID = 2768890790226621132
+java.io.InvalidClassException: Pjsf.PessoaBean; local class incompatible: stream classdesc serialVersionUID = 9133528225554780726, local class serialVersionUID = 2768890790226621132
+	at java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:562)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1583)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1496)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1732)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1947)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1871)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1496)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:998)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:648)
+	at org.apache.catalina.core.ContainerBase.setManager(ContainerBase.java:446)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4631)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:601)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:840)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+16/06/2021 10:29:55 org.apache.catalina.session.StandardManager start
+SEVERE: Exception loading sessions from persistent storage
+java.io.InvalidClassException: Pjsf.PessoaBean; local class incompatible: stream classdesc serialVersionUID = 9133528225554780726, local class serialVersionUID = 2768890790226621132
+	at java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:562)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1583)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1496)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1732)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1947)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1871)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1496)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:998)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:648)
+	at org.apache.catalina.core.ContainerBase.setManager(ContainerBase.java:446)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4631)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:601)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:840)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+16/06/2021 10:30:02 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+16/06/2021 10:30:04 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+16/06/2021 10:30:04 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+16/06/2021 10:30:04 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+16/06/2021 10:30:04 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+16/06/2021 10:30:04 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+16/06/2021 10:30:04 org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8082
+16/06/2021 10:30:04 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+16/06/2021 10:30:04 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/34  config=null
+16/06/2021 10:30:04 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 10324 ms
+16/06/2021 10:30:05 org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/JSF] has started
+16/06/2021 10:30:05 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/JSF] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16/06/2021 10:30:05 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+16/06/2021 10:30:06 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+16/06/2021 10:32:58 org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/JSF] has started
+16/06/2021 10:32:59 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+16/06/2021 10:32:59 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+16/06/2021 10:32:59 org.apache.catalina.session.StandardManager doLoad
+SEVERE: IOException while loading persisted sessions: java.io.InvalidClassException: Pjsf.PessoaBean; local class incompatible: stream classdesc serialVersionUID = 2768890790226621132, local class serialVersionUID = 7676102388896961087
+java.io.InvalidClassException: Pjsf.PessoaBean; local class incompatible: stream classdesc serialVersionUID = 2768890790226621132, local class serialVersionUID = 7676102388896961087
+	at java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:562)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1583)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1496)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1732)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1947)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1871)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1496)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:998)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:648)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4714)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3461)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:943)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:361)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:563)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+16/06/2021 10:32:59 org.apache.catalina.session.StandardManager start
+SEVERE: Exception loading sessions from persistent storage
+java.io.InvalidClassException: Pjsf.PessoaBean; local class incompatible: stream classdesc serialVersionUID = 2768890790226621132, local class serialVersionUID = 7676102388896961087
+	at java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:562)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1583)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1496)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1732)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1947)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1871)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1496)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:998)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:648)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4714)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3461)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:943)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:361)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:563)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+16/06/2021 10:33:06 org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8082
+16/06/2021 10:33:07 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+16/06/2021 10:33:07 org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8082
+16/06/2021 10:33:12 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_18\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.7.0_71\bin;C:\Program Files\Git\cmd;C:\Users\Sec.Obras\AppData\Local\Programs\Git\cmd
+16/06/2021 10:33:13 org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8082
+16/06/2021 10:33:13 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 404 ms
+16/06/2021 10:33:13 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+16/06/2021 10:33:13 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.33
+16/06/2021 10:33:13 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+16/06/2021 10:33:13 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor JSF.xml
+16/06/2021 10:33:13 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+16/06/2021 10:33:14 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+16/06/2021 10:33:14 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+16/06/2021 10:33:14 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+16/06/2021 10:33:14 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+16/06/2021 10:33:14 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+16/06/2021 10:33:14 org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8082
+16/06/2021 10:33:14 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+16/06/2021 10:33:14 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/40  config=null
+16/06/2021 10:33:14 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1837 ms
+16/06/2021 10:33:57 org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/JSF] has started
+16/06/2021 10:33:57 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/JSF] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16/06/2021 10:33:58 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+16/06/2021 10:33:59 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+16/06/2021 10:35:21 org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/JSF] has started
+16/06/2021 10:35:22 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+16/06/2021 10:35:23 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+16/06/2021 10:39:22 org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8082
+16/06/2021 10:39:23 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+16/06/2021 10:39:23 org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8082
+16/06/2021 10:39:29 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_18\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.7.0_71\bin;C:\Program Files\Git\cmd;C:\Users\Sec.Obras\AppData\Local\Programs\Git\cmd
+16/06/2021 10:39:29 org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8082
+16/06/2021 10:39:29 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 278 ms
+16/06/2021 10:39:29 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+16/06/2021 10:39:29 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.33
+16/06/2021 10:39:29 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+16/06/2021 10:39:30 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor JSF.xml
+16/06/2021 10:39:30 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+16/06/2021 10:39:31 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+16/06/2021 10:39:31 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+16/06/2021 10:39:31 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+16/06/2021 10:39:31 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+16/06/2021 10:39:31 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+16/06/2021 10:39:31 org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8082
+16/06/2021 10:39:31 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+16/06/2021 10:39:31 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/20  config=null
+16/06/2021 10:39:31 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1267 ms
+16/06/2021 10:39:31 org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/JSF] has started
+16/06/2021 10:39:31 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/JSF] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16/06/2021 10:39:31 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+16/06/2021 10:39:32 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+16/06/2021 10:40:25 org.hibernate.cfg.annotations.Version <clinit>
+INFO: Hibernate Annotations 3.3.1.GA
+16/06/2021 10:40:25 org.hibernate.cfg.Environment <clinit>
+INFO: Hibernate 3.2.5
+16/06/2021 10:40:25 org.hibernate.cfg.Environment <clinit>
+INFO: hibernate.properties not found
+16/06/2021 10:40:25 org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: Bytecode provider name : cglib
+16/06/2021 10:40:26 org.hibernate.cfg.Environment <clinit>
+INFO: using JDK 1.4 java.sql.Timestamp handling
+16/06/2021 10:40:26 org.hibernate.ejb.Version <clinit>
+INFO: Hibernate EntityManager 3.3.2.GA
+16/06/2021 10:40:26 org.hibernate.cfg.AnnotationBinder bindClass
+INFO: Binding entity from annotated class: br.com.entidades.Pessoa
+16/06/2021 10:40:26 org.hibernate.cfg.annotations.EntityBinder bindTable
+INFO: Bind entity br.com.entidades.Pessoa on table Pessoa
+16/06/2021 10:40:26 org.hibernate.cfg.AnnotationConfiguration secondPassCompile
+INFO: Hibernate Validator not found: ignoring
+16/06/2021 10:40:26 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+16/06/2021 10:40:26 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+16/06/2021 10:40:26 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: true
+16/06/2021 10:40:26 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/teste
+16/06/2021 10:40:26 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****, autocommit=true, release_mode=auto}
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.4.9
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 8.3 JDBC3 with SSL (build 603)
+16/06/2021 10:40:28 org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+16/06/2021 10:40:28 org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+16/06/2021 10:40:28 org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): disabled
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL inserts for batching: disabled
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+16/06/2021 10:40:28 org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: enabled
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+16/06/2021 10:40:28 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Named query checking : enabled
+16/06/2021 10:40:28 org.hibernate.impl.SessionFactoryImpl <init>
+INFO: building session factory
+16/06/2021 10:40:29 org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+16/06/2021 10:40:29 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+16/06/2021 10:40:29 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+16/06/2021 10:40:29 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+16/06/2021 10:40:30 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.pessoa
+16/06/2021 10:40:30 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, sobrenome, idade, datanascimento, nome]
+16/06/2021 10:40:30 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+16/06/2021 10:40:30 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [pessoa_pkey]
+16/06/2021 10:40:30 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
+16/06/2021 10:40:31 org.hibernate.hql.ast.ErrorCounter reportError
+SEVERE: line 1:1: unexpected token: fromjava
+16/06/2021 10:40:31 com.sun.faces.application.ActionListenerImpl processAction
+SEVERE: java.lang.IllegalArgumentException: node to traverse cannot be null!
+javax.faces.el.EvaluationException: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:102)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:775)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1267)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:312)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at org.hibernate.hql.ast.util.NodeTraverser.traverseDepthFirst(NodeTraverser.java:31)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:254)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:157)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:111)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:77)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:56)
+	at org.hibernate.engine.query.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:72)
+	at org.hibernate.impl.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:133)
+	at org.hibernate.impl.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:112)
+	at org.hibernate.impl.SessionImpl.createQuery(SessionImpl.java:1623)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.createQuery(AbstractEntityManagerImpl.java:93)
+	at br.com.dao.DaoGeneric.getListEntity(DaoGeneric.java:70)
+	at Pjsf.PessoaBean.carregarPessoas(PessoaBean.java:46)
+	at Pjsf.PessoaBean.salvar(PessoaBean.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:191)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:276)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:98)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:88)
+	... 20 more
+16/06/2021 10:40:31 com.sun.faces.lifecycle.InvokeApplicationPhase execute
+WARNING: #{pessoaBean.salvar}: java.lang.IllegalArgumentException: node to traverse cannot be null!
+javax.faces.FacesException: #{pessoaBean.salvar}: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:775)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1267)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:312)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: javax.faces.el.EvaluationException: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:102)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 19 more
+Caused by: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at org.hibernate.hql.ast.util.NodeTraverser.traverseDepthFirst(NodeTraverser.java:31)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:254)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:157)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:111)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:77)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:56)
+	at org.hibernate.engine.query.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:72)
+	at org.hibernate.impl.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:133)
+	at org.hibernate.impl.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:112)
+	at org.hibernate.impl.SessionImpl.createQuery(SessionImpl.java:1623)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.createQuery(AbstractEntityManagerImpl.java:93)
+	at br.com.dao.DaoGeneric.getListEntity(DaoGeneric.java:70)
+	at Pjsf.PessoaBean.carregarPessoas(PessoaBean.java:46)
+	at Pjsf.PessoaBean.salvar(PessoaBean.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:191)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:276)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:98)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:88)
+	... 20 more
+16/06/2021 10:44:15 org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/JSF] has started
+16/06/2021 10:44:15 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/JSF] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16/06/2021 10:44:16 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+16/06/2021 10:44:16 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+16/06/2021 10:44:31 org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8082
+16/06/2021 10:44:32 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+16/06/2021 10:44:32 org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8082
+16/06/2021 10:44:36 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_18\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.7.0_71\bin;C:\Program Files\Git\cmd;C:\Users\Sec.Obras\AppData\Local\Programs\Git\cmd
+16/06/2021 10:44:36 org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8082
+16/06/2021 10:44:36 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 330 ms
+16/06/2021 10:44:36 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+16/06/2021 10:44:36 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.33
+16/06/2021 10:44:36 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+16/06/2021 10:44:36 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor JSF.xml
+16/06/2021 10:44:37 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+16/06/2021 10:44:37 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+16/06/2021 10:44:37 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+16/06/2021 10:44:37 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+16/06/2021 10:44:38 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+16/06/2021 10:44:38 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+16/06/2021 10:44:38 org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8082
+16/06/2021 10:44:38 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+16/06/2021 10:44:38 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/18  config=null
+16/06/2021 10:44:38 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1773 ms
+16/06/2021 10:44:58 org.hibernate.cfg.annotations.Version <clinit>
+INFO: Hibernate Annotations 3.3.1.GA
+16/06/2021 10:44:58 org.hibernate.cfg.Environment <clinit>
+INFO: Hibernate 3.2.5
+16/06/2021 10:44:58 org.hibernate.cfg.Environment <clinit>
+INFO: hibernate.properties not found
+16/06/2021 10:44:58 org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: Bytecode provider name : cglib
+16/06/2021 10:44:58 org.hibernate.cfg.Environment <clinit>
+INFO: using JDK 1.4 java.sql.Timestamp handling
+16/06/2021 10:44:58 org.hibernate.ejb.Version <clinit>
+INFO: Hibernate EntityManager 3.3.2.GA
+16/06/2021 10:44:59 org.hibernate.cfg.AnnotationBinder bindClass
+INFO: Binding entity from annotated class: br.com.entidades.Pessoa
+16/06/2021 10:44:59 org.hibernate.cfg.annotations.EntityBinder bindTable
+INFO: Bind entity br.com.entidades.Pessoa on table Pessoa
+16/06/2021 10:44:59 org.hibernate.cfg.AnnotationConfiguration secondPassCompile
+INFO: Hibernate Validator not found: ignoring
+16/06/2021 10:44:59 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+16/06/2021 10:44:59 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+16/06/2021 10:44:59 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: true
+16/06/2021 10:44:59 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/teste
+16/06/2021 10:44:59 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****, autocommit=true, release_mode=auto}
+16/06/2021 10:44:59 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.4.9
+16/06/2021 10:44:59 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 8.3 JDBC3 with SSL (build 603)
+16/06/2021 10:44:59 org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+16/06/2021 10:44:59 org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+16/06/2021 10:44:59 org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+16/06/2021 10:44:59 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+16/06/2021 10:44:59 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+16/06/2021 10:44:59 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+16/06/2021 10:44:59 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+16/06/2021 10:44:59 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+16/06/2021 10:44:59 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): disabled
+16/06/2021 10:44:59 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+16/06/2021 10:44:59 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+16/06/2021 10:44:59 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+16/06/2021 10:44:59 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+16/06/2021 10:44:59 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL inserts for batching: disabled
+16/06/2021 10:44:59 org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+16/06/2021 10:44:59 org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+16/06/2021 10:44:59 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+16/06/2021 10:44:59 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: enabled
+16/06/2021 10:44:59 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+16/06/2021 10:44:59 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+16/06/2021 10:44:59 org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+16/06/2021 10:44:59 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+16/06/2021 10:45:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+16/06/2021 10:45:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+16/06/2021 10:45:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+16/06/2021 10:45:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+16/06/2021 10:45:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Named query checking : enabled
+16/06/2021 10:45:00 org.hibernate.impl.SessionFactoryImpl <init>
+INFO: building session factory
+16/06/2021 10:45:00 org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+16/06/2021 10:45:00 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+16/06/2021 10:45:00 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+16/06/2021 10:45:00 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+16/06/2021 10:45:00 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.pessoa
+16/06/2021 10:45:00 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, sobrenome, idade, datanascimento, nome]
+16/06/2021 10:45:00 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+16/06/2021 10:45:00 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [pessoa_pkey]
+16/06/2021 10:45:00 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
+16/06/2021 10:45:00 org.hibernate.hql.ast.ErrorCounter reportError
+SEVERE: line 1:1: unexpected token: frombr
+16/06/2021 10:45:00 com.sun.faces.application.ActionListenerImpl processAction
+SEVERE: java.lang.IllegalArgumentException: node to traverse cannot be null!
+javax.faces.el.EvaluationException: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:102)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:775)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1267)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:312)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at org.hibernate.hql.ast.util.NodeTraverser.traverseDepthFirst(NodeTraverser.java:31)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:254)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:157)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:111)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:77)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:56)
+	at org.hibernate.engine.query.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:72)
+	at org.hibernate.impl.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:133)
+	at org.hibernate.impl.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:112)
+	at org.hibernate.impl.SessionImpl.createQuery(SessionImpl.java:1623)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.createQuery(AbstractEntityManagerImpl.java:93)
+	at br.com.dao.DaoGeneric.getListEntity(DaoGeneric.java:70)
+	at Pjsf.PessoaBean.carregarPessoas(PessoaBean.java:46)
+	at Pjsf.PessoaBean.salvar(PessoaBean.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:191)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:276)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:98)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:88)
+	... 20 more
+16/06/2021 10:45:00 com.sun.faces.lifecycle.InvokeApplicationPhase execute
+WARNING: #{pessoaBean.salvar}: java.lang.IllegalArgumentException: node to traverse cannot be null!
+javax.faces.FacesException: #{pessoaBean.salvar}: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:775)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1267)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:312)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: javax.faces.el.EvaluationException: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:102)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 19 more
+Caused by: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at org.hibernate.hql.ast.util.NodeTraverser.traverseDepthFirst(NodeTraverser.java:31)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:254)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:157)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:111)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:77)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:56)
+	at org.hibernate.engine.query.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:72)
+	at org.hibernate.impl.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:133)
+	at org.hibernate.impl.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:112)
+	at org.hibernate.impl.SessionImpl.createQuery(SessionImpl.java:1623)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.createQuery(AbstractEntityManagerImpl.java:93)
+	at br.com.dao.DaoGeneric.getListEntity(DaoGeneric.java:70)
+	at Pjsf.PessoaBean.carregarPessoas(PessoaBean.java:46)
+	at Pjsf.PessoaBean.salvar(PessoaBean.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:191)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:276)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:98)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:88)
+	... 20 more
+16/06/2021 10:48:28 org.hibernate.hql.ast.ErrorCounter reportError
+SEVERE: line 1:1: unexpected token: frombr
+16/06/2021 10:48:28 com.sun.faces.application.ActionListenerImpl processAction
+SEVERE: java.lang.IllegalArgumentException: node to traverse cannot be null!
+javax.faces.el.EvaluationException: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:102)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:775)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1267)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:312)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at org.hibernate.hql.ast.util.NodeTraverser.traverseDepthFirst(NodeTraverser.java:31)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:254)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:157)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:111)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:77)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:56)
+	at org.hibernate.engine.query.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:72)
+	at org.hibernate.impl.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:133)
+	at org.hibernate.impl.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:112)
+	at org.hibernate.impl.SessionImpl.createQuery(SessionImpl.java:1623)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.createQuery(AbstractEntityManagerImpl.java:93)
+	at br.com.dao.DaoGeneric.getListEntity(DaoGeneric.java:70)
+	at Pjsf.PessoaBean.carregarPessoas(PessoaBean.java:46)
+	at Pjsf.PessoaBean.salvar(PessoaBean.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:191)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:276)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:98)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:88)
+	... 20 more
+16/06/2021 10:48:28 com.sun.faces.lifecycle.InvokeApplicationPhase execute
+WARNING: #{pessoaBean.salvar}: java.lang.IllegalArgumentException: node to traverse cannot be null!
+javax.faces.FacesException: #{pessoaBean.salvar}: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:775)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1267)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:312)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: javax.faces.el.EvaluationException: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:102)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 19 more
+Caused by: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at org.hibernate.hql.ast.util.NodeTraverser.traverseDepthFirst(NodeTraverser.java:31)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:254)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:157)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:111)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:77)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:56)
+	at org.hibernate.engine.query.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:72)
+	at org.hibernate.impl.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:133)
+	at org.hibernate.impl.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:112)
+	at org.hibernate.impl.SessionImpl.createQuery(SessionImpl.java:1623)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.createQuery(AbstractEntityManagerImpl.java:93)
+	at br.com.dao.DaoGeneric.getListEntity(DaoGeneric.java:70)
+	at Pjsf.PessoaBean.carregarPessoas(PessoaBean.java:46)
+	at Pjsf.PessoaBean.salvar(PessoaBean.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:191)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:276)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:98)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:88)
+	... 20 more
+16/06/2021 10:48:49 com.sun.faces.application.view.FaceletViewHandlingStrategy handleRenderException
+SEVERE: Error Rendering View[/index.xhtml]
+javax.el.PropertyNotFoundException: Property 'remove' not found on type Pjsf.PessoaBean
+	at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:214)
+	at javax.el.BeanELResolver$BeanProperties.access$400(BeanELResolver.java:191)
+	at javax.el.BeanELResolver.property(BeanELResolver.java:300)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:81)
+	at javax.el.CompositeELResolver.getValue(CompositeELResolver.java:54)
+	at com.sun.faces.el.FacesCompositeELResolver.getValue(FacesCompositeELResolver.java:72)
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:123)
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:186)
+	at com.sun.faces.facelets.el.ELText$ELTextVariable.toString(ELText.java:207)
+	at com.sun.faces.facelets.el.ELText$ELTextComposite.toString(ELText.java:148)
+	at com.sun.faces.facelets.compiler.CommentInstruction.write(CommentInstruction.java:70)
+	at com.sun.faces.facelets.compiler.UIInstructions.encodeBegin(UIInstructions.java:75)
+	at com.sun.faces.facelets.compiler.UILeaf.encodeAll(UILeaf.java:176)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:168)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:848)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1613)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1616)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1616)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:380)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:126)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:127)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:139)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:313)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+16/06/2021 10:48:52 com.sun.faces.application.view.FaceletViewHandlingStrategy handleRenderException
+SEVERE: Error Rendering View[/index.xhtml]
+javax.el.PropertyNotFoundException: Property 'remove' not found on type Pjsf.PessoaBean
+	at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:214)
+	at javax.el.BeanELResolver$BeanProperties.access$400(BeanELResolver.java:191)
+	at javax.el.BeanELResolver.property(BeanELResolver.java:300)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:81)
+	at javax.el.CompositeELResolver.getValue(CompositeELResolver.java:54)
+	at com.sun.faces.el.FacesCompositeELResolver.getValue(FacesCompositeELResolver.java:72)
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:123)
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:186)
+	at com.sun.faces.facelets.el.ELText$ELTextVariable.toString(ELText.java:207)
+	at com.sun.faces.facelets.el.ELText$ELTextComposite.toString(ELText.java:148)
+	at com.sun.faces.facelets.compiler.CommentInstruction.write(CommentInstruction.java:70)
+	at com.sun.faces.facelets.compiler.UIInstructions.encodeBegin(UIInstructions.java:75)
+	at com.sun.faces.facelets.compiler.UILeaf.encodeAll(UILeaf.java:176)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:168)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:848)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1613)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1616)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1616)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:380)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:126)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:127)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:139)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:313)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+16/06/2021 10:49:12 com.sun.faces.application.view.FaceletViewHandlingStrategy handleRenderException
+SEVERE: Error Rendering View[/index.xhtml]
+javax.el.PropertyNotFoundException: Property 'remove' not found on type Pjsf.PessoaBean
+	at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:214)
+	at javax.el.BeanELResolver$BeanProperties.access$400(BeanELResolver.java:191)
+	at javax.el.BeanELResolver.property(BeanELResolver.java:300)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:81)
+	at javax.el.CompositeELResolver.getValue(CompositeELResolver.java:54)
+	at com.sun.faces.el.FacesCompositeELResolver.getValue(FacesCompositeELResolver.java:72)
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:123)
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:186)
+	at com.sun.faces.facelets.el.ELText$ELTextVariable.toString(ELText.java:207)
+	at com.sun.faces.facelets.el.ELText$ELTextComposite.toString(ELText.java:148)
+	at com.sun.faces.facelets.compiler.CommentInstruction.write(CommentInstruction.java:70)
+	at com.sun.faces.facelets.compiler.UIInstructions.encodeBegin(UIInstructions.java:75)
+	at com.sun.faces.facelets.compiler.UILeaf.encodeAll(UILeaf.java:176)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:168)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:848)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1613)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1616)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1616)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:380)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:126)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:127)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:139)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:313)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+16/06/2021 10:49:21 org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8082
+16/06/2021 10:49:22 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+16/06/2021 10:49:22 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/JSF] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16/06/2021 10:49:23 org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8082
+16/06/2021 10:50:08 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_18\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.7.0_71\bin;C:\Program Files\Git\cmd;C:\Users\Sec.Obras\AppData\Local\Programs\Git\cmd
+16/06/2021 10:50:08 org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8082
+16/06/2021 10:50:08 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 286 ms
+16/06/2021 10:50:08 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+16/06/2021 10:50:08 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.33
+16/06/2021 10:50:08 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+16/06/2021 10:50:08 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor JSF.xml
+16/06/2021 10:50:09 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+16/06/2021 10:50:09 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+16/06/2021 10:50:09 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+16/06/2021 10:50:09 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+16/06/2021 10:50:09 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+16/06/2021 10:50:09 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+16/06/2021 10:50:09 org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8082
+16/06/2021 10:50:09 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+16/06/2021 10:50:09 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/27  config=null
+16/06/2021 10:50:09 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1457 ms
+16/06/2021 10:50:09 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/JSF] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16/06/2021 10:50:10 org.apache.catalina.startup.HostConfig checkResources
+INFO: Undeploying context [/JSF]
+16/06/2021 10:50:10 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor JSF.xml
+16/06/2021 10:50:10 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+16/06/2021 10:50:11 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+16/06/2021 10:50:13 com.sun.faces.application.view.FaceletViewHandlingStrategy handleRenderException
+SEVERE: Error Rendering View[/index.xhtml]
+javax.el.PropertyNotFoundException: Property 'remove' not found on type Pjsf.PessoaBean
+	at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:214)
+	at javax.el.BeanELResolver$BeanProperties.access$400(BeanELResolver.java:191)
+	at javax.el.BeanELResolver.property(BeanELResolver.java:300)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:81)
+	at javax.el.CompositeELResolver.getValue(CompositeELResolver.java:54)
+	at com.sun.faces.el.FacesCompositeELResolver.getValue(FacesCompositeELResolver.java:72)
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:123)
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:186)
+	at com.sun.faces.facelets.el.ELText$ELTextVariable.toString(ELText.java:207)
+	at com.sun.faces.facelets.el.ELText$ELTextComposite.toString(ELText.java:148)
+	at com.sun.faces.facelets.compiler.CommentInstruction.write(CommentInstruction.java:70)
+	at com.sun.faces.facelets.compiler.UIInstructions.encodeBegin(UIInstructions.java:75)
+	at com.sun.faces.facelets.compiler.UILeaf.encodeAll(UILeaf.java:176)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:168)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:848)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1613)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1616)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1616)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:380)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:126)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:127)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:139)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:313)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+16/06/2021 10:51:59 org.hibernate.cfg.annotations.Version <clinit>
+INFO: Hibernate Annotations 3.3.1.GA
+16/06/2021 10:51:59 org.hibernate.cfg.Environment <clinit>
+INFO: Hibernate 3.2.5
+16/06/2021 10:51:59 org.hibernate.cfg.Environment <clinit>
+INFO: hibernate.properties not found
+16/06/2021 10:51:59 org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: Bytecode provider name : cglib
+16/06/2021 10:51:59 org.hibernate.cfg.Environment <clinit>
+INFO: using JDK 1.4 java.sql.Timestamp handling
+16/06/2021 10:51:59 org.hibernate.ejb.Version <clinit>
+INFO: Hibernate EntityManager 3.3.2.GA
+16/06/2021 10:51:59 org.hibernate.cfg.AnnotationBinder bindClass
+INFO: Binding entity from annotated class: br.com.entidades.Pessoa
+16/06/2021 10:51:59 org.hibernate.cfg.annotations.EntityBinder bindTable
+INFO: Bind entity br.com.entidades.Pessoa on table Pessoa
+16/06/2021 10:52:00 org.hibernate.cfg.AnnotationConfiguration secondPassCompile
+INFO: Hibernate Validator not found: ignoring
+16/06/2021 10:52:00 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+16/06/2021 10:52:00 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+16/06/2021 10:52:00 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: true
+16/06/2021 10:52:00 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/teste
+16/06/2021 10:52:00 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****, autocommit=true, release_mode=auto}
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.4.9
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 8.3 JDBC3 with SSL (build 603)
+16/06/2021 10:52:00 org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+16/06/2021 10:52:00 org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+16/06/2021 10:52:00 org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): disabled
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL inserts for batching: disabled
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+16/06/2021 10:52:00 org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: enabled
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+16/06/2021 10:52:00 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Named query checking : enabled
+16/06/2021 10:52:00 org.hibernate.impl.SessionFactoryImpl <init>
+INFO: building session factory
+16/06/2021 10:52:00 org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+16/06/2021 10:52:00 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+16/06/2021 10:52:00 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+16/06/2021 10:52:00 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+16/06/2021 10:52:01 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.pessoa
+16/06/2021 10:52:01 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, sobrenome, idade, datanascimento, nome]
+16/06/2021 10:52:01 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+16/06/2021 10:52:01 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [pessoa_pkey]
+16/06/2021 10:52:01 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
+16/06/2021 10:52:01 org.hibernate.hql.ast.ErrorCounter reportError
+SEVERE: line 1:1: unexpected token: frombr
+16/06/2021 10:52:01 com.sun.faces.application.ActionListenerImpl processAction
+SEVERE: java.lang.IllegalArgumentException: node to traverse cannot be null!
+javax.faces.el.EvaluationException: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:102)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:775)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1267)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:312)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at org.hibernate.hql.ast.util.NodeTraverser.traverseDepthFirst(NodeTraverser.java:31)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:254)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:157)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:111)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:77)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:56)
+	at org.hibernate.engine.query.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:72)
+	at org.hibernate.impl.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:133)
+	at org.hibernate.impl.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:112)
+	at org.hibernate.impl.SessionImpl.createQuery(SessionImpl.java:1623)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.createQuery(AbstractEntityManagerImpl.java:93)
+	at br.com.dao.DaoGeneric.getListEntity(DaoGeneric.java:70)
+	at Pjsf.PessoaBean.carregarPessoas(PessoaBean.java:46)
+	at Pjsf.PessoaBean.salvar(PessoaBean.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:191)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:276)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:98)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:88)
+	... 20 more
+16/06/2021 10:52:01 com.sun.faces.lifecycle.InvokeApplicationPhase execute
+WARNING: #{pessoaBean.salvar}: java.lang.IllegalArgumentException: node to traverse cannot be null!
+javax.faces.FacesException: #{pessoaBean.salvar}: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:775)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1267)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:312)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: javax.faces.el.EvaluationException: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:102)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 19 more
+Caused by: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at org.hibernate.hql.ast.util.NodeTraverser.traverseDepthFirst(NodeTraverser.java:31)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:254)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:157)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:111)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:77)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:56)
+	at org.hibernate.engine.query.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:72)
+	at org.hibernate.impl.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:133)
+	at org.hibernate.impl.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:112)
+	at org.hibernate.impl.SessionImpl.createQuery(SessionImpl.java:1623)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.createQuery(AbstractEntityManagerImpl.java:93)
+	at br.com.dao.DaoGeneric.getListEntity(DaoGeneric.java:70)
+	at Pjsf.PessoaBean.carregarPessoas(PessoaBean.java:46)
+	at Pjsf.PessoaBean.salvar(PessoaBean.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:191)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:276)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:98)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:88)
+	... 20 more
+16/06/2021 10:54:23 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/JSF] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16/06/2021 10:54:23 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/JSF] appears to have started a thread named [Mojarra-WebResourceMonitor-1-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+16/06/2021 10:54:25 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+16/06/2021 10:54:25 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+16/06/2021 10:54:38 org.hibernate.cfg.annotations.Version <clinit>
+INFO: Hibernate Annotations 3.3.1.GA
+16/06/2021 10:54:38 org.hibernate.cfg.Environment <clinit>
+INFO: Hibernate 3.2.5
+16/06/2021 10:54:38 org.hibernate.cfg.Environment <clinit>
+INFO: hibernate.properties not found
+16/06/2021 10:54:38 org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: Bytecode provider name : cglib
+16/06/2021 10:54:38 org.hibernate.cfg.Environment <clinit>
+INFO: using JDK 1.4 java.sql.Timestamp handling
+16/06/2021 10:54:38 org.hibernate.ejb.Version <clinit>
+INFO: Hibernate EntityManager 3.3.2.GA
+16/06/2021 10:54:38 org.hibernate.cfg.AnnotationBinder bindClass
+INFO: Binding entity from annotated class: br.com.entidades.Pessoa
+16/06/2021 10:54:39 org.hibernate.cfg.annotations.EntityBinder bindTable
+INFO: Bind entity br.com.entidades.Pessoa on table Pessoa
+16/06/2021 10:54:39 org.hibernate.cfg.AnnotationConfiguration secondPassCompile
+INFO: Hibernate Validator not found: ignoring
+16/06/2021 10:54:39 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+16/06/2021 10:54:39 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+16/06/2021 10:54:39 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: true
+16/06/2021 10:54:39 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/teste
+16/06/2021 10:54:39 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****, autocommit=true, release_mode=auto}
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.4.9
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 8.3 JDBC3 with SSL (build 603)
+16/06/2021 10:54:39 org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+16/06/2021 10:54:39 org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+16/06/2021 10:54:39 org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): disabled
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL inserts for batching: disabled
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+16/06/2021 10:54:39 org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: enabled
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+16/06/2021 10:54:39 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Named query checking : enabled
+16/06/2021 10:54:39 org.hibernate.impl.SessionFactoryImpl <init>
+INFO: building session factory
+16/06/2021 10:54:39 org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+16/06/2021 10:54:39 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+16/06/2021 10:54:39 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+16/06/2021 10:54:40 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+16/06/2021 10:54:40 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.pessoa
+16/06/2021 10:54:40 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, sobrenome, idade, datanascimento, nome]
+16/06/2021 10:54:40 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+16/06/2021 10:54:40 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [pessoa_pkey]
+16/06/2021 10:54:40 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
+16/06/2021 10:54:40 org.hibernate.hql.ast.ErrorCounter reportError
+SEVERE: line 1:1: unexpected token: frombr
+16/06/2021 10:54:40 com.sun.faces.application.ActionListenerImpl processAction
+SEVERE: java.lang.IllegalArgumentException: node to traverse cannot be null!
+javax.faces.el.EvaluationException: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:102)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:775)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1267)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:312)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at org.hibernate.hql.ast.util.NodeTraverser.traverseDepthFirst(NodeTraverser.java:31)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:254)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:157)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:111)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:77)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:56)
+	at org.hibernate.engine.query.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:72)
+	at org.hibernate.impl.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:133)
+	at org.hibernate.impl.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:112)
+	at org.hibernate.impl.SessionImpl.createQuery(SessionImpl.java:1623)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.createQuery(AbstractEntityManagerImpl.java:93)
+	at br.com.dao.DaoGeneric.getListEntity(DaoGeneric.java:70)
+	at Pjsf.PessoaBean.carregarPessoas(PessoaBean.java:46)
+	at Pjsf.PessoaBean.salvar(PessoaBean.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:191)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:276)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:98)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:88)
+	... 20 more
+16/06/2021 10:54:40 com.sun.faces.lifecycle.InvokeApplicationPhase execute
+WARNING: #{pessoaBean.salvar}: java.lang.IllegalArgumentException: node to traverse cannot be null!
+javax.faces.FacesException: #{pessoaBean.salvar}: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:775)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1267)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:312)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: javax.faces.el.EvaluationException: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:102)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 19 more
+Caused by: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at org.hibernate.hql.ast.util.NodeTraverser.traverseDepthFirst(NodeTraverser.java:31)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:254)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:157)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:111)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:77)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:56)
+	at org.hibernate.engine.query.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:72)
+	at org.hibernate.impl.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:133)
+	at org.hibernate.impl.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:112)
+	at org.hibernate.impl.SessionImpl.createQuery(SessionImpl.java:1623)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.createQuery(AbstractEntityManagerImpl.java:93)
+	at br.com.dao.DaoGeneric.getListEntity(DaoGeneric.java:70)
+	at Pjsf.PessoaBean.carregarPessoas(PessoaBean.java:46)
+	at Pjsf.PessoaBean.salvar(PessoaBean.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:191)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:276)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:98)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:88)
+	... 20 more
+16/06/2021 10:57:38 org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/JSF] has started
+16/06/2021 10:57:38 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/JSF] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16/06/2021 10:57:39 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+16/06/2021 10:57:39 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+16/06/2021 10:57:39 org.apache.catalina.session.StandardManager doLoad
+SEVERE: IOException while loading persisted sessions: java.io.InvalidClassException: Pjsf.PessoaBean; local class incompatible: stream classdesc serialVersionUID = 7676102388896961087, local class serialVersionUID = -5811778867280077560
+java.io.InvalidClassException: Pjsf.PessoaBean; local class incompatible: stream classdesc serialVersionUID = 7676102388896961087, local class serialVersionUID = -5811778867280077560
+	at java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:562)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1583)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1496)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1732)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1947)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1871)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1496)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:998)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:648)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4714)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3461)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:943)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:361)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:563)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+16/06/2021 10:57:39 org.apache.catalina.session.StandardManager start
+SEVERE: Exception loading sessions from persistent storage
+java.io.InvalidClassException: Pjsf.PessoaBean; local class incompatible: stream classdesc serialVersionUID = 7676102388896961087, local class serialVersionUID = -5811778867280077560
+	at java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:562)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1583)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1496)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1732)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1947)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1871)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1496)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:998)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:648)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4714)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3461)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:943)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:361)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:563)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+16/06/2021 10:57:47 org.hibernate.cfg.annotations.Version <clinit>
+INFO: Hibernate Annotations 3.3.1.GA
+16/06/2021 10:57:47 org.hibernate.cfg.Environment <clinit>
+INFO: Hibernate 3.2.5
+16/06/2021 10:57:47 org.hibernate.cfg.Environment <clinit>
+INFO: hibernate.properties not found
+16/06/2021 10:57:47 org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: Bytecode provider name : cglib
+16/06/2021 10:57:47 org.hibernate.cfg.Environment <clinit>
+INFO: using JDK 1.4 java.sql.Timestamp handling
+16/06/2021 10:57:47 org.hibernate.ejb.Version <clinit>
+INFO: Hibernate EntityManager 3.3.2.GA
+16/06/2021 10:57:47 org.hibernate.cfg.AnnotationBinder bindClass
+INFO: Binding entity from annotated class: br.com.entidades.Pessoa
+16/06/2021 10:57:47 org.hibernate.cfg.annotations.EntityBinder bindTable
+INFO: Bind entity br.com.entidades.Pessoa on table Pessoa
+16/06/2021 10:57:47 org.hibernate.cfg.AnnotationConfiguration secondPassCompile
+INFO: Hibernate Validator not found: ignoring
+16/06/2021 10:57:47 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+16/06/2021 10:57:47 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+16/06/2021 10:57:47 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: true
+16/06/2021 10:57:47 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/teste
+16/06/2021 10:57:47 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****, autocommit=true, release_mode=auto}
+16/06/2021 10:57:47 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.4.9
+16/06/2021 10:57:47 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 8.3 JDBC3 with SSL (build 603)
+16/06/2021 10:57:47 org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+16/06/2021 10:57:47 org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+16/06/2021 10:57:47 org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+16/06/2021 10:57:47 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+16/06/2021 10:57:47 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+16/06/2021 10:57:47 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+16/06/2021 10:57:47 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+16/06/2021 10:57:47 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+16/06/2021 10:57:47 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): disabled
+16/06/2021 10:57:48 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+16/06/2021 10:57:48 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+16/06/2021 10:57:48 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+16/06/2021 10:57:48 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+16/06/2021 10:57:48 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL inserts for batching: disabled
+16/06/2021 10:57:48 org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+16/06/2021 10:57:48 org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+16/06/2021 10:57:48 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+16/06/2021 10:57:48 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: enabled
+16/06/2021 10:57:48 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+16/06/2021 10:57:48 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+16/06/2021 10:57:48 org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+16/06/2021 10:57:48 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+16/06/2021 10:57:48 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+16/06/2021 10:57:48 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+16/06/2021 10:57:48 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+16/06/2021 10:57:48 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+16/06/2021 10:57:48 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Named query checking : enabled
+16/06/2021 10:57:48 org.hibernate.impl.SessionFactoryImpl <init>
+INFO: building session factory
+16/06/2021 10:57:48 org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+16/06/2021 10:57:48 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+16/06/2021 10:57:48 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+16/06/2021 10:57:48 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+16/06/2021 10:57:48 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.pessoa
+16/06/2021 10:57:48 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, sobrenome, idade, datanascimento, nome]
+16/06/2021 10:57:48 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+16/06/2021 10:57:48 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [pessoa_pkey]
+16/06/2021 10:57:48 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
+16/06/2021 10:57:58 org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/JSF] has started
+16/06/2021 10:57:58 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/JSF] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16/06/2021 10:57:59 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+16/06/2021 10:58:00 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+16/06/2021 10:58:01 org.hibernate.cfg.annotations.Version <clinit>
+INFO: Hibernate Annotations 3.3.1.GA
+16/06/2021 10:58:01 org.hibernate.cfg.Environment <clinit>
+INFO: Hibernate 3.2.5
+16/06/2021 10:58:01 org.hibernate.cfg.Environment <clinit>
+INFO: hibernate.properties not found
+16/06/2021 10:58:01 org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: Bytecode provider name : cglib
+16/06/2021 10:58:01 org.hibernate.cfg.Environment <clinit>
+INFO: using JDK 1.4 java.sql.Timestamp handling
+16/06/2021 10:58:01 org.hibernate.ejb.Version <clinit>
+INFO: Hibernate EntityManager 3.3.2.GA
+16/06/2021 10:58:01 org.hibernate.cfg.AnnotationBinder bindClass
+INFO: Binding entity from annotated class: br.com.entidades.Pessoa
+16/06/2021 10:58:01 org.hibernate.cfg.annotations.EntityBinder bindTable
+INFO: Bind entity br.com.entidades.Pessoa on table Pessoa
+16/06/2021 10:58:01 org.hibernate.cfg.AnnotationConfiguration secondPassCompile
+INFO: Hibernate Validator not found: ignoring
+16/06/2021 10:58:01 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+16/06/2021 10:58:01 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+16/06/2021 10:58:01 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: true
+16/06/2021 10:58:01 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/teste
+16/06/2021 10:58:01 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****, autocommit=true, release_mode=auto}
+16/06/2021 10:58:01 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.4.9
+16/06/2021 10:58:01 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 8.3 JDBC3 with SSL (build 603)
+16/06/2021 10:58:01 org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+16/06/2021 10:58:01 org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+16/06/2021 10:58:01 org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+16/06/2021 10:58:01 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+16/06/2021 10:58:01 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+16/06/2021 10:58:01 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+16/06/2021 10:58:01 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+16/06/2021 10:58:01 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+16/06/2021 10:58:01 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): disabled
+16/06/2021 10:58:01 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+16/06/2021 10:58:01 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+16/06/2021 10:58:01 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+16/06/2021 10:58:01 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+16/06/2021 10:58:01 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL inserts for batching: disabled
+16/06/2021 10:58:01 org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+16/06/2021 10:58:01 org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+16/06/2021 10:58:01 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+16/06/2021 10:58:01 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: enabled
+16/06/2021 10:58:01 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+16/06/2021 10:58:01 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+16/06/2021 10:58:01 org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+16/06/2021 10:58:01 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+16/06/2021 10:58:01 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+16/06/2021 10:58:02 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+16/06/2021 10:58:02 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+16/06/2021 10:58:02 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+16/06/2021 10:58:02 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Named query checking : enabled
+16/06/2021 10:58:02 org.hibernate.impl.SessionFactoryImpl <init>
+INFO: building session factory
+16/06/2021 10:58:02 org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+16/06/2021 10:58:02 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+16/06/2021 10:58:02 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+16/06/2021 10:58:02 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+16/06/2021 10:58:02 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.pessoa
+16/06/2021 10:58:02 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, sobrenome, idade, datanascimento, nome]
+16/06/2021 10:58:02 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+16/06/2021 10:58:02 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [pessoa_pkey]
+16/06/2021 10:58:02 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
+16/06/2021 10:58:02 org.hibernate.hql.ast.ErrorCounter reportError
+SEVERE: line 1:1: unexpected token: frombr
+16/06/2021 10:58:02 com.sun.faces.application.ActionListenerImpl processAction
+SEVERE: java.lang.IllegalArgumentException: node to traverse cannot be null!
+javax.faces.el.EvaluationException: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:102)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:775)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1267)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:312)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at org.hibernate.hql.ast.util.NodeTraverser.traverseDepthFirst(NodeTraverser.java:31)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:254)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:157)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:111)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:77)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:56)
+	at org.hibernate.engine.query.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:72)
+	at org.hibernate.impl.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:133)
+	at org.hibernate.impl.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:112)
+	at org.hibernate.impl.SessionImpl.createQuery(SessionImpl.java:1623)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.createQuery(AbstractEntityManagerImpl.java:93)
+	at br.com.dao.DaoGeneric.getListEntity(DaoGeneric.java:70)
+	at Pjsf.PessoaBean.carregarPessoas(PessoaBean.java:46)
+	at Pjsf.PessoaBean.salvar(PessoaBean.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:191)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:276)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:98)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:88)
+	... 20 more
+16/06/2021 10:58:02 com.sun.faces.lifecycle.InvokeApplicationPhase execute
+WARNING: #{pessoaBean.salvar}: java.lang.IllegalArgumentException: node to traverse cannot be null!
+javax.faces.FacesException: #{pessoaBean.salvar}: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:118)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:775)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1267)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:82)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:118)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:312)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: javax.faces.el.EvaluationException: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:102)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	... 19 more
+Caused by: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at org.hibernate.hql.ast.util.NodeTraverser.traverseDepthFirst(NodeTraverser.java:31)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:254)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:157)
+	at org.hibernate.hql.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:111)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:77)
+	at org.hibernate.engine.query.HQLQueryPlan.<init>(HQLQueryPlan.java:56)
+	at org.hibernate.engine.query.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:72)
+	at org.hibernate.impl.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:133)
+	at org.hibernate.impl.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:112)
+	at org.hibernate.impl.SessionImpl.createQuery(SessionImpl.java:1623)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.createQuery(AbstractEntityManagerImpl.java:93)
+	at br.com.dao.DaoGeneric.getListEntity(DaoGeneric.java:70)
+	at Pjsf.PessoaBean.carregarPessoas(PessoaBean.java:46)
+	at Pjsf.PessoaBean.salvar(PessoaBean.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:191)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:276)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:98)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:88)
+	... 20 more
+16/06/2021 11:00:16 org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/JSF] has started
+16/06/2021 11:00:16 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/JSF] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16/06/2021 11:00:16 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+16/06/2021 11:00:17 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+16/06/2021 11:00:17 org.apache.catalina.session.StandardManager doLoad
+SEVERE: IOException while loading persisted sessions: java.io.InvalidClassException: Pjsf.PessoaBean; local class incompatible: stream classdesc serialVersionUID = -5811778867280077560, local class serialVersionUID = 8007841493455307572
+java.io.InvalidClassException: Pjsf.PessoaBean; local class incompatible: stream classdesc serialVersionUID = -5811778867280077560, local class serialVersionUID = 8007841493455307572
+	at java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:562)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1583)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1496)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1732)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.GeneratedMethodAccessor90.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1947)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1871)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1496)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:998)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:648)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4714)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3461)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:943)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:361)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:563)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+16/06/2021 11:00:17 org.apache.catalina.session.StandardManager start
+SEVERE: Exception loading sessions from persistent storage
+java.io.InvalidClassException: Pjsf.PessoaBean; local class incompatible: stream classdesc serialVersionUID = -5811778867280077560, local class serialVersionUID = 8007841493455307572
+	at java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:562)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1583)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1496)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1732)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.GeneratedMethodAccessor90.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1947)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1871)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1667)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1323)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at java.util.HashMap.readObject(HashMap.java:1030)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1496)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:998)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:648)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4714)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3461)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:943)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:361)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:563)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+16/06/2021 11:00:41 org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/JSF] has started
+16/06/2021 11:00:41 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+16/06/2021 11:00:42 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+16/06/2021 11:00:50 org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8082
+16/06/2021 11:00:51 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+16/06/2021 11:00:51 org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8082
+16/06/2021 11:08:31 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.6.0_18\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.7.0_71\bin;C:\Program Files\Git\cmd;C:\Users\Sec.Obras\AppData\Local\Programs\Git\cmd
+16/06/2021 11:08:31 org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8082
+16/06/2021 11:08:31 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 283 ms
+16/06/2021 11:08:31 org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+16/06/2021 11:08:31 org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.33
+16/06/2021 11:08:31 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+16/06/2021 11:08:31 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor JSF.xml
+16/06/2021 11:08:32 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+16/06/2021 11:08:32 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+16/06/2021 11:08:32 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+16/06/2021 11:08:32 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+16/06/2021 11:08:32 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+16/06/2021 11:08:32 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+16/06/2021 11:08:32 org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8082
+16/06/2021 11:08:32 org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+16/06/2021 11:08:32 org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/18  config=null
+16/06/2021 11:08:32 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1493 ms
+16/06/2021 11:08:32 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/JSF] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16/06/2021 11:08:33 org.apache.catalina.startup.HostConfig checkResources
+INFO: Undeploying context [/JSF]
+16/06/2021 11:08:33 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor JSF.xml
+16/06/2021 11:08:34 com.sun.faces.config.ConfigureListener contextInitialized
+INFO: Inicializando Mojarra 2.0.2 (FCS b10) para o contexto '/JSF'
+16/06/2021 11:08:34 com.sun.faces.config.ConfigureListener$WebConfigResourceMonitor$Monitor <init>
+INFO: Monitoring jndi:/localhost/JSF/WEB-INF/faces-config.xml for modifications
+16/06/2021 11:08:36 com.sun.faces.application.view.FaceletViewHandlingStrategy handleRenderException
+SEVERE: Error Rendering View[/index.xhtml]
+javax.el.PropertyNotFoundException: Property 'remove' not found on type Pjsf.PessoaBean
+	at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:214)
+	at javax.el.BeanELResolver$BeanProperties.access$400(BeanELResolver.java:191)
+	at javax.el.BeanELResolver.property(BeanELResolver.java:300)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:81)
+	at javax.el.CompositeELResolver.getValue(CompositeELResolver.java:54)
+	at com.sun.faces.el.FacesCompositeELResolver.getValue(FacesCompositeELResolver.java:72)
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:123)
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:186)
+	at com.sun.faces.facelets.el.ELText$ELTextVariable.toString(ELText.java:207)
+	at com.sun.faces.facelets.el.ELText$ELTextComposite.toString(ELText.java:148)
+	at com.sun.faces.facelets.compiler.CommentInstruction.write(CommentInstruction.java:70)
+	at com.sun.faces.facelets.compiler.UIInstructions.encodeBegin(UIInstructions.java:75)
+	at com.sun.faces.facelets.compiler.UILeaf.encodeAll(UILeaf.java:176)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:168)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:848)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1613)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1616)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1616)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:380)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:126)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:127)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:139)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:313)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:291)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:619)
+16/06/2021 11:08:57 org.hibernate.cfg.annotations.Version <clinit>
+INFO: Hibernate Annotations 3.3.1.GA
+16/06/2021 11:08:57 org.hibernate.cfg.Environment <clinit>
+INFO: Hibernate 3.2.5
+16/06/2021 11:08:57 org.hibernate.cfg.Environment <clinit>
+INFO: hibernate.properties not found
+16/06/2021 11:08:57 org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: Bytecode provider name : cglib
+16/06/2021 11:08:57 org.hibernate.cfg.Environment <clinit>
+INFO: using JDK 1.4 java.sql.Timestamp handling
+16/06/2021 11:08:57 org.hibernate.ejb.Version <clinit>
+INFO: Hibernate EntityManager 3.3.2.GA
+16/06/2021 11:08:57 org.hibernate.cfg.AnnotationBinder bindClass
+INFO: Binding entity from annotated class: br.com.entidades.Pessoa
+16/06/2021 11:08:57 org.hibernate.cfg.annotations.EntityBinder bindTable
+INFO: Bind entity br.com.entidades.Pessoa on table Pessoa
+16/06/2021 11:08:57 org.hibernate.cfg.AnnotationConfiguration secondPassCompile
+INFO: Hibernate Validator not found: ignoring
+16/06/2021 11:08:57 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+16/06/2021 11:08:57 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+16/06/2021 11:08:57 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: true
+16/06/2021 11:08:57 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/teste
+16/06/2021 11:08:58 org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****, autocommit=true, release_mode=auto}
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.4.9
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 8.3 JDBC3 with SSL (build 603)
+16/06/2021 11:08:58 org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+16/06/2021 11:08:58 org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+16/06/2021 11:08:58 org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): disabled
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL inserts for batching: disabled
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+16/06/2021 11:08:58 org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: enabled
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+16/06/2021 11:08:58 org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Named query checking : enabled
+16/06/2021 11:08:58 org.hibernate.impl.SessionFactoryImpl <init>
+INFO: building session factory
+16/06/2021 11:08:58 org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+16/06/2021 11:08:58 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+16/06/2021 11:08:58 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+16/06/2021 11:08:58 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+16/06/2021 11:08:59 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.pessoa
+16/06/2021 11:08:59 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [id, sobrenome, idade, datanascimento, nome]
+16/06/2021 11:08:59 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+16/06/2021 11:08:59 org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [pessoa_pkey]
+16/06/2021 11:08:59 org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
+16/06/2021 11:09:21 org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8082
+16/06/2021 11:09:22 org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+16/06/2021 11:09:22 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/JSF] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16/06/2021 11:09:23 org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8082

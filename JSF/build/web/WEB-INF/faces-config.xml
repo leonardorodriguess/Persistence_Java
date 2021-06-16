@@ -12,7 +12,6 @@
     <managed-bean>
         <managed-bean-name>pessoaBean</managed-bean-name>
         <managed-bean-class>Pjsf.PessoaBean</managed-bean-class>
-        <!-- <managed-bean-scope>view</managed-bean-scope> -->
         <managed-bean-scope>view</managed-bean-scope>
     </managed-bean>
 

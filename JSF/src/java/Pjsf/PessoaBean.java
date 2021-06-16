@@ -7,6 +7,8 @@ package Pjsf;
 import br.com.dao.DaoGeneric;
 import br.com.entidades.Pessoa;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 //import java.util.ArrayList;
 //import java.util.List;
 
@@ -28,6 +30,7 @@ import java.io.Serializable;
 public class PessoaBean implements Serializable {
     private Pessoa pessoa = new Pessoa();
     private DaoGeneric <Pessoa> daoGeneric = new DaoGeneric<Pessoa>();
+    private List<Pessoa> pessoas = new ArrayList<Pessoa>();
 
     /*public void salvar(){
         daoGeneric.salvar(pessoa);
@@ -35,9 +38,17 @@ public class PessoaBean implements Serializable {
     }*/
     public void remove(){
         daoGeneric.delete(pessoa);
+        pessoa = new Pessoa();
+        carregarPessoas();
     }
+
+    public void carregarPessoas(){
+        pessoas = daoGeneric.getListEntity(Pessoa.class);
+    }
+
     public void salvar(){
         pessoa = daoGeneric.merge(pessoa);
+        carregarPessoas();
     }
 
     public void novo(){
@@ -59,5 +70,10 @@ public class PessoaBean implements Serializable {
     public void setPessoa(Pessoa pessoa) {
         this.pessoa = pessoa;
     }
+
+    public List<Pessoa> getPessoas() {
+        return pessoas;
+    }
+
 
 }

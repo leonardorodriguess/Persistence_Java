@@ -1,0 +1,104 @@
+16/06/2021 10:30:04 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16/06/2021 10:30:04 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+16/06/2021 10:30:04 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+16/06/2021 10:30:04 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+16/06/2021 10:30:05 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application at '/JSF'
+16/06/2021 10:32:58 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+16/06/2021 10:32:58 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application at '/JSF'
+16/06/2021 10:33:57 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16/06/2021 10:33:57 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+16/06/2021 10:33:57 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+16/06/2021 10:33:57 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+16/06/2021 10:33:57 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application at '/JSF'
+16/06/2021 10:35:21 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+16/06/2021 10:35:21 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application at '/JSF'
+16/06/2021 10:39:14 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+16/06/2021 10:39:31 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16/06/2021 10:39:31 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+16/06/2021 10:39:31 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+16/06/2021 10:39:31 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+16/06/2021 10:39:31 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application at '/JSF'
+16/06/2021 10:40:10 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+16/06/2021 10:44:15 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+16/06/2021 10:44:15 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application at '/JSF'
+16/06/2021 10:48:46 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16/06/2021 10:48:46 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+16/06/2021 10:48:46 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+16/06/2021 10:50:09 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16/06/2021 10:50:09 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+16/06/2021 10:50:09 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+16/06/2021 10:50:09 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+16/06/2021 10:50:09 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/JSF'
+16/06/2021 10:50:10 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/SEC~1.OBR/AppData/Local/Temp/context8035114045225491340.xml'
+16/06/2021 10:51:14 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+16/06/2021 10:51:23 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+16/06/2021 10:54:23 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+16/06/2021 10:54:23 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: stop: Stopping web application at '/JSF'
+16/06/2021 10:54:24 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application at '/JSF'
+16/06/2021 10:57:38 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+16/06/2021 10:57:38 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application at '/JSF'
+16/06/2021 10:57:58 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+16/06/2021 10:57:58 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application at '/JSF'
+16/06/2021 11:00:16 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+16/06/2021 11:00:16 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application at '/JSF'
+16/06/2021 11:00:41 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+16/06/2021 11:00:41 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application at '/JSF'
+16/06/2021 11:08:32 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+16/06/2021 11:08:32 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+16/06/2021 11:08:32 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+16/06/2021 11:08:32 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+16/06/2021 11:08:32 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/JSF'
+16/06/2021 11:08:33 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/SEC~1.OBR/AppData/Local/Temp/context3730279402468925664.xml'
+16/06/2021 11:08:49 org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
