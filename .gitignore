@@ -1,3 +1,12 @@
 /Input01/dist/
 /usandojsf/nbproject/private/
 /usandojsf/build/
+JSF/dist/JSF.war
+JSF/build/web/WEB-INF/classes/META-INF/persistence.xml
+apache-tomcat-6.0.33/work/Catalina/localhost/JSF/SESSIONS.ser
+JSF/build/web/WEB-INF/classes/META-INF/persistence.xml
+apache-tomcat-6.0.33/logs/manager.2021-06-22.log
+apache-tomcat-6.0.33/logs/localhost.2021-06-22.log
+apache-tomcat-6.0.33/logs/host-manager.2021-06-22.log
+apache-tomcat-6.0.33/logs/catalina.2021-06-22.log
+apache-tomcat-6.0.33/conf/Catalina/localhost/JSF.xml
