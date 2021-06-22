@@ -6,3 +6,17 @@ apache-tomcat-6.0.33/logs/localhost.2021-06-22.log
 apache-tomcat-6.0.33/logs/host-manager.2021-06-22.log
 apache-tomcat-6.0.33/logs/catalina.2021-06-22.log
 apache-tomcat-6.0.33/logs/manager.2021-06-22.log
+/JSF/dist/
+JSF/build/web/WEB-INF/classes/Pjsf/PessoaBean.class
+JSF/nbproject/project.properties
+JSF/nbproject/private/private.properties
+JSF/nbproject/genfiles.properties
+JSF/nbproject/build-impl.xml~
+JSF/build/web/WEB-INF/classes/Pjsf/PessoaBean.class
+*.properties
+*.properties
+*.properties
+*.xml~
+*.class
+JSF/build/web/WEB-INF/classes/Pjsf/PessoaBean.class
+JSF/nbproject/project.properties
