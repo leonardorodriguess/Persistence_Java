@@ -1,2 +1,1 @@
-# Java
- 
+# Data persistence with Java
